@@ -12,9 +12,9 @@
 #		Project Configuration
 #-------------------------------------------
 PROJECT_NAME = TTF2MESH
-STATIC_LIB_NAME = tt2mesh.a
-DYNAMIC_LIB_NAME = #tt2mesh.dll
-EXECUTABLE_NAME = tt2mesh.exe
+STATIC_LIB_NAME = tt2fmesh.a
+DYNAMIC_LIB_NAME = #tt2fmesh.dll
+EXECUTABLE_NAME = tt2fmesh.exe
 EXTERNAL_LIBRARIES = 
 EXTERNAL_INCLUDES = 
 DEPENDENCIES = 
