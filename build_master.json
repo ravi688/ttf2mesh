@@ -1,0 +1,26 @@
+{
+    "project_name": "TTF2MESH",
+    "canonical_name": "ttf2mesh",
+    "install_header_dirs" : "include",
+    "include_dirs": "include",
+    "targets": [
+        {
+            "name": "ttf2mesh",
+            "is_executable": true,
+            "sources": [
+                "source/main.c"
+            ]
+        },
+        {
+            "name" : "ttf2mesh_static",
+            "is_static_library" : true
+        },
+        {
+            "name" : "ttf2mesh_shared",
+            "is_shared_library" : true
+        }
+    ],
+    "sources" : [
+        "source/ttf2mesh.c"
+    ]
+}
