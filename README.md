@@ -8,7 +8,7 @@
 > Add the followings when you compile your project with gcc or clang <br>
 > `pkg-config ttf2mesh_static --cflags` for include dirs (library header files) <br>
 > `pkg-config ttf2mesh_shared --libs` for linking against the library <br>
-> Or You may also use this repository as a meson wrap dependency
+> Or You may also use this repository as a meson wrap dependency, depedencies are exported as `ttf2mesh_static_dep` and `ttf2mesh_shared_dep`
 
 ![image](https://github.com/fetisov/ttf2mesh/blob/assets/logo.png?raw=true)
 
