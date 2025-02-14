@@ -1,3 +1,15 @@
+> [!Note]
+> Fork of https://github.com/fetisov/ttf2mesh
+> Build system is changed here, it is based on Meson and [Build Master](https://github.com/ravi688/BuildMaster)
+> Run the following to build and install as library <br>
+> `$ meson setup build` <br>
+> `$ meson compile -C build` <br>
+> `$ meson install -C build` <br>
+> Add the followings when you compile your project with gcc or clang <br>
+> `pkg-config ttf2mesh_static --cflags` for include dirs (library header files) <br>
+> `pkg-config ttf2mesh_shared --libs` for linking against the library <br>
+> Or You may also use this repository as a meson wrap dependency
+
 ![image](https://github.com/fetisov/ttf2mesh/blob/assets/logo.png?raw=true)
 
 The ttf2mesh crossplatform library allows to convert a glyphs of truetype font (ttf) to a mesh objects in 2d and 3d space. The library does not require any graphical context and does not use system dependent functions.
